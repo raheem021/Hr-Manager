@@ -1,0 +1,68 @@
+sign-in{
+    background-image: url("../src/assets/1881 1.svg");
+    background-size: cover; 
+    height: 100vh;
+    background-repeat: no-repeat;
+  }
+  .sign-in-body{
+    width: 640px;
+    background-color: white;
+  
+  }
+  .sign-in-header{
+    color:#343536;
+    font-size: 27.03px;
+    font-family:var(--ff-bri--);
+    font-weight:700;
+    /* margin-top:41px; */
+    padding:40px;
+    text-align: center;
+
+  }
+
+  .text-center-1{
+    width: 544px;
+    height: 64px;
+    font-size:28px;
+    font-weight:600;
+    font-family: var(--ff-inter--);
+    text-align:center;
+    color:#28282B;
+    ;
+
+  }
+  .write{
+    font-size: 16px;
+    font-weight: 500;
+    font-family:var(--ff-inter--);
+    margin-top: 8px;
+  }
+  #forgot-pass{
+    margin-top: 8px;
+  }
+
+  input{
+    width:544px;
+    height:48px;
+    gap:5px;
+    border-radius: 4px;
+    border:none;
+    background-color:#F3F3F3;
+
+  }
+  .sign-in-btn-1{
+    width:544px;
+    height:48px;
+    border-radius:4px;
+    padding:12px, 36px, 12px, 36px;
+    gap:8px;
+    background-color:#3439CA;
+    margin-top: 42px;
+  }
+ .text-center{
+    font-size: 14px;
+    font-weight: 400;
+    width:151px;
+    height: 20px;
+
+  }

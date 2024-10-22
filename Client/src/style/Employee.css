@@ -1,0 +1,33 @@
+.hybrid {
+    border-radius: 50px;
+    color: #3439ca;
+    background-color: #e2e3f8;
+    font-family: var(--ff-inter--);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.36px;
+  }
+  .remote {
+    border-radius: 50px;
+    color: #f29b07;
+    background-color: #fff5e3;
+    font-family: var(--ff-inter--);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.36px;
+  }
+  .on-site {
+    border-radius: 50px;
+    color: #0d805d;
+    background-color: #e7f9f3;
+    font-family: var(--ff-inter--);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.36px;
+  }
+  
+  @media (max-width: 768px) {
+    .employee-main {
+      width: 340px;
+    }
+  }

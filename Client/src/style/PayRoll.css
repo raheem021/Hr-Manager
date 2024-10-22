@@ -1,0 +1,56 @@
+.payroll-summary {
+    margin-top: 24px;
+  }
+  .payroll-summary-div-1 {
+    border-radius: 5px;
+  }
+  .summary-payroll-name {
+    font-family: var(--ff-Dmsan--);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20.83px;
+    color: #2f2b2bb0;
+  }
+  .summary-payroll-number {
+    font-family: var(--ff-Dmsan--);
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 46.87px;
+  }
+  
+  .summary-payroll-1 p {
+    font-family: var(--ff-Dmsan--);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18.23px;
+    color: #3c3c3c;
+  }
+  .summary-payroll-img {
+    width: 45px;
+    height: 19px;
+  }
+  .payroll-head {
+    color: #292929;
+    font-family: var(--ff-inter--);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24.2px;
+  }
+  @media (max-width: 768px) {
+    .payroll-admin {
+      width: 340px;
+    }
+    .payroll-summary {
+      width: 100%;
+      flex-direction: column;
+    }
+  }
+  @media (min-width: 765px) and (max-width: 1024px) {
+    .payroll-admin {
+      width: 29.68rem;
+    }
+  
+    .payroll-summary {
+      flex-wrap: wrap;
+    }
+  }

@@ -1,0 +1,198 @@
+.admin-summary-task {
+    border: 1px solid #f1f2f3;
+    padding: 20px 17px;
+    border-radius: 10px;
+    width: 100%;
+  }
+  .h1 {
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 42px;
+  }
+  
+  .admin-summary-task-1 h4 {
+    font-family: "DM Sans", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    color: #706d6d;
+  }
+  
+  .admin-summary-task-1 h1 {
+    font-family: "Poppins", sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 28px;
+    color: #1e1e1e;
+    margin-top: 20px;
+  }
+  .admin-summary-2 {
+    border: 1px solid #f1f2f3;
+    margin-top: 54px;
+    border-radius: 14px;
+  }
+  .admin-summary-taskboard {
+    font-family: var(--ff-inter--);
+    font-weight: 500;
+    font-size: 25.57px;
+    line-height: 30.95px;
+    margin-top: 18px;
+  }
+  .task-head {
+    background-color: #b7eede;
+    border: 1px solid #b7eede;
+    color: #b7eede;
+  }
+  .table-input {
+    height: 57px;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: var(--ff-inter--);
+    color: #292929;
+    line-height: 19.36px;
+  }
+  #start {
+    margin-bottom: 1px;
+    height: 19px;
+  }
+  
+  #end {
+    margin-bottom: 1px;
+    height: 19px;
+    color: #8c8c8c;
+  }
+  .hash {
+    width: 50px;
+    height: 40px;
+  }
+  
+  #check-box {
+    width: 25px;
+    height: 24px;
+    border-radius: 4px;
+    border: 1px solid #e2e6f0;
+    background-color: #f7f9fb;
+    margin-left: 4px;
+    margin-top: 6px;
+  }
+  .planned {
+    border-radius: 50px;
+    color: #f29b07;
+    background-color: #fff5e3;
+    font-family: var(--ff-inter--);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.36px;
+    padding: 4px 16px 4px 16px;
+    width: 100px;
+  }
+  .completed {
+    border-radius: 50px;
+    color: #0d805d;
+    background-color: #e5fff7;
+    font-family: var(--ff-inter--);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.36px;
+    padding: 4px 16px 4px 16px;
+    width: 120px;
+  }
+  .in-progress {
+    border-radius: 50px;
+    color: #137ff2;
+    background-color: #9dd2ef42;
+    font-family: var(--ff-inter--);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.36px;
+    padding: 4px 16px 4px 16px;
+    width: 120px;
+  }
+  
+  /* personalinfo */
+  .personal-form input {
+    height: 46px;
+    padding-left: 5px;
+  }
+  .input-employee {
+    height: 46px;
+    padding-left: 5px;
+  }
+  .save {
+    width: 217px;
+    height: 40px;
+    padding: 5px 46px 8px 46px;
+    border-radius: 4px;
+    background-color: #3439ca;
+    color: #f3f2fb;
+  }
+  .cancel {
+    width: 185px;
+    height: 40px;
+    padding: 5px 66px 8px 66px;
+    border-radius: 4px;
+    border: 1px solid #db3e3e;
+    color: #db3e3e;
+  }
+  /* Teams */
+  .teams {
+    margin-bottom: 49px;
+  }
+  
+  /* modals */
+  .all-modal {
+    width: 420px;
+    height: 50px;
+    padding: 12px 84px 20px 84px;
+    border-radius: 5px;
+    background: #3439ca;
+  }
+  .edit-team {
+    width: 137px;
+    height: 40px;
+    padding: 5px 31px 8px 31px;
+    border-radius: 4px;
+    border: 1.5px solid #3439CA;
+    color:  #3439CA;
+  }
+  
+  @media (max-width: 765px) {
+    .admin-summary {
+      width: 340px;
+    }
+    .admin-summary-1 {
+      width: 100%;
+    }
+    .admin-summary-2 {
+      width: 100%;
+    }
+    .admin-summary-employee {
+      flex-direction: column;
+      gap: 10px;
+    }
+    #start {
+      margin-bottom: 1px;
+      height: 20px;
+      padding-bottom: 2px;
+      width: 130px;
+    }
+    #end {
+      margin-bottom: 1px;
+    }
+  }
+  @media (min-width: 765px) and (max-width: 1024px) {
+    .admin-summary {
+      width: 475px;
+    }
+  
+    .admin-summary-employee {
+      flex-direction: column;
+    }
+    #start {
+      margin-bottom: 1px;
+      height: 20px;
+      padding-bottom: 2px;
+      width: 130px;
+    }
+  }
